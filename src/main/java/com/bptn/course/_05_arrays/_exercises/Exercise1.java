@@ -1,6 +1,6 @@
-package com.bptn.course._01_variables;
+package com.bptn.course._05_arrays._exercises;
 
-public class Variables {
+public class Exercise1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

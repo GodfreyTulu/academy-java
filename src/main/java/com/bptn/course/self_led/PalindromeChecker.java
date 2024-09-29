@@ -1,4 +1,4 @@
-package com.bptn.course._06_self_led;
+package com.bptn.course.self_led;
 
 import java.util.Scanner;
 
