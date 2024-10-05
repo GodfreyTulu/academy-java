@@ -1,4 +1,4 @@
-package com.bptn.course.big_coding;
+package com.bptn.course.big_coding._01_week_exercises;
 
 import java.util.Scanner;
 
