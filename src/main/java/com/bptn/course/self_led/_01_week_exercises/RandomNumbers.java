@@ -1,4 +1,4 @@
-package com.bptn.course.self_led;
+package com.bptn.course.self_led._01_week_exercises;
 
 public class RandomNumbers {
 

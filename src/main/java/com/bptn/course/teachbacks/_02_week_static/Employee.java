@@ -1,4 +1,4 @@
-package com.bptn.course.teachbacks;
+package com.bptn.course.teachbacks._02_week_static;
 
 /*
  * STATIC VARIABLE.

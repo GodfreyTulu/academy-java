@@ -1,4 +1,4 @@
-package com.bptn.course.teachbacks;
+package com.bptn.course.teachbacks._01_week_arrays;
 
 public class ArrayForLoop {
 
