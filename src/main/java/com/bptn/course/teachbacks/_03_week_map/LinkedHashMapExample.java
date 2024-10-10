@@ -9,7 +9,10 @@ public class LinkedHashMapExample {
 	
 	/*
 	 * LinkedHashMap preserves insertion order
+	 * It is best when the order of the key-value pairs is essential.
 	 * 
+	 * A Map can’t be traversed, so if you need to do so, you must first convert it into a 
+	 * Set using the keySet(), entrySet(), or values() method.	 * 
 	 */
 
     public static void main(String[] args) {
@@ -26,7 +29,7 @@ public class LinkedHashMapExample {
 		System.out.println(linkedHashMap); // prints elements
 		
         // Accessing elements
-        System.out.println("LinkedHashMap value for 'Apple': " + linkedHashMap.get("Apple"));
+        System.out.println("Apple is found in basket number: " + linkedHashMap.get("Apple"));
         
         // Checking if a key exists
         System.out.println("Is there Banana?: " + linkedHashMap.containsKey("Banana"));

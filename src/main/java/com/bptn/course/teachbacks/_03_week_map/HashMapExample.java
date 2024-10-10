@@ -8,7 +8,10 @@ public class HashMapExample {
 
 	/*
 	 * HashMaps are unordered.
+	 * It is best when the order of the key-value pairs is not essential.
 	 * 
+	 * A Map can’t be traversed, so if you need to do so, you must first convert it into a 
+	 * Set using the keySet(), entrySet(), or values() method.
 	 */
 
 	public static void main(String[] args) {

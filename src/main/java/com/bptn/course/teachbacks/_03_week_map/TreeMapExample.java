@@ -6,9 +6,12 @@ import java.util.Iterator;
 
 public class TreeMapExample {
 	
-	/*
-	 * TreeMaps are sorted by keys.
+	/* 
+	 * TreeMaps are sorted by keys in order.
+	 * It is is best when the key-value pairs need to be sorted.
 	 * 
+	 * A Map can’t be traversed, so if you need to do so, you must first convert it into a 
+	 * Set using the keySet(), entrySet(), or values() method.
 	 */
 
 	public static void main(String[] args) {
@@ -66,3 +69,6 @@ public class TreeMapExample {
 		System.out.println("The final elements: " + treeMap);
 	}
 }
+
+
+//Maps are useful when you have to search, update or delete elements based on a key.
