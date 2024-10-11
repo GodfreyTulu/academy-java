@@ -42,3 +42,55 @@ LISTS
    - Perform better than ArrayList if we need to modify a long list frequently (insert, remove).
    
    
+SETS
+****
+
+- Don't keep the insertion order
+- All the elements must be unique
+
+- Types
+
+1. HashSet - Doesn't keep the insertion order
+           - Implements Hash Algorithm
+
+2. LinkedHashSet - Keeps the insertion order.
+                 - Implements Hash Algorithm.
+                 - Less performance as it uses internally:
+                   - HashSet
+                   - LinkedList
+
+
+3. TreeSet - Sorts the elements
+           - Implements red-black tree algorithm.
+           - Less performance as it sorts the elements
+           
+
+MAPS
+****
+
+- A map is a set of ordered pairs, each pair contains a key and a value. In a map,
+all keys are required to be unique, the values can be repeated.
+
+- Maps have three primary methods: one to add a specified key-value pairs, one to 
+retrieve the value for a given key, and one to remove a key-value pair from the map.
+
+- Maps are very useful when we need to search by a key.
+- An Entry is a (key, value) pairing.
+
+Types
+
+1. HashMap - Doesn't keep the insertion order
+           - Implements the Hash Algorithm
+
+2. LinkedHashMap - Keeps the insertion order
+                 - Implements the Hash Algorithm
+                 - Less performance as it uses internally:
+                   - HashMap
+                   - LinkedList            
+
+3. TreeMap - Sorts the elements by key
+           - Implements red-black tree algorithm.
+           - Less performance as it sorts the elements by key.
+
+
+

@@ -2,7 +2,7 @@ package com.bptn.course._18_collections;
 
 import java.util.Objects;
 
-public class Person {
+public class Person implements Comparable<Person>{
 
 	// Java Bean - Model
 	
@@ -30,6 +30,11 @@ public class Person {
 
 
 	@Override
+	public int hashCode() {
+		return Objects.hash(age, id, name);
+	}
+
+	@Override
 	public boolean equals(Object obj) {
 		if (this == obj)
 			return true;
@@ -44,6 +49,14 @@ public class Person {
 	@Override
 	public String toString() {
 		return String.format("Person [id=%s, name=%s, age=%s]", id, name, age);
+	}
+
+	@Override
+	public int compareTo(Person p) {
+		// TODO Auto-generated method stub
+		//return this.name.compareTo(p.getName());
+		return p.getName().compareTo(this.name);
+		//return Integer.compare(p.getId(),this.id);
 	}
 
 
