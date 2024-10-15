@@ -1,4 +1,4 @@
-package com.bptn.course.knowledge_check._03_week_practices;
+package com.bptn.course.knowledge_check._03_week_exercises;
 
 import java.util.ArrayList;
 

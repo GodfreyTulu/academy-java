@@ -1,4 +1,4 @@
-package com.bptn.course.self_led._03_week_exercises._my_thread;
+package com.bptn.course.self_led._03_week_practices.my_thread;
 
 public class Main {
 

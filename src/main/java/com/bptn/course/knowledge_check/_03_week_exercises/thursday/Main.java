@@ -1,4 +1,4 @@
-package com.bptn.course.knowledge_check._03_week_practices._Thursday;
+package com.bptn.course.knowledge_check._03_week_exercises.thursday;
 
 //Main method for execution of the program.
 public class Main {

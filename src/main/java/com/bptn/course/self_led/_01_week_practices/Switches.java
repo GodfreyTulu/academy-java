@@ -1,4 +1,4 @@
-package com.bptn.course.self_led._01_week_exercises;
+package com.bptn.course.self_led._01_week_practices;
 
 public class Switches {
 

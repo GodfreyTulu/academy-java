@@ -1,4 +1,4 @@
-package com.bptn.course.self_led._03_week_exercises;
+package com.bptn.course.self_led._03_week_practices;
 
 public class CountdownTimer implements Runnable {
 
