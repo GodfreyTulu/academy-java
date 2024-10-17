@@ -1,4 +1,4 @@
-package com.bptn.course.self_and_instructor_led._04_week_practices;
+package com.bptn.course.self_and_instructor_led._04_week_practices.search;
 
 import java.util.Arrays;
 
