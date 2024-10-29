@@ -1,0 +1,16 @@
+SOLID principles:
+
+   Single Responsibility Principle (SRP): 
+   Each class should only do one thing. If a class handles student data, it shouldn’t also handle file saving.
+
+   Open/Closed Principle (OCP): 
+   Classes should be easy to extend with new features, but you shouldn’t have to change existing code to add these features.
+
+   Liskov Substitution Principle (LSP): 
+   Subclasses should work wherever their parent class is used. For example, if Bird can fly, Penguin shouldn’t be a Bird because it can’t.
+
+   Interface Segregation Principle (ISP): 
+   Don’t force classes to implement methods they don’t use. Instead, make smaller interfaces with only the needed methods.
+
+   Dependency Inversion Principle (DIP): 
+   Classes should depend on general interfaces, not specific classes, so you can swap out parts easily without breaking code.

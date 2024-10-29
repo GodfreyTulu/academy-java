@@ -1,0 +1,16 @@
+Pillars of Object-Oriented Programming (OOP):
+
+    Encapsulation: 
+    Bundles data and methods in an object, hiding internal details and protecting data from outside interference.
+
+    Abstraction: 
+    Simplifies complex systems by modeling essential features, allowing focus on what an object does rather than how it does it.
+
+    Inheritance: 
+    Allows one class to inherit attributes and methods from another, promoting code reuse and creating class hierarchies.
+
+    Polymorphism - Many forms: 
+    Enables objects of different classes to be treated as instances of a common superclass, allowing methods to be overridden or 
+    overloaded for flexibility.
+
+These pillars help create organized, reusable, and maintainable code.
