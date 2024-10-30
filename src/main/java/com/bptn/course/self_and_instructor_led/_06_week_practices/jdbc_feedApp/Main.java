@@ -1,4 +1,4 @@
-package com.bptn.course.self_and_instructor_led._06_week_practices.feedApp;
+package com.bptn.course.self_and_instructor_led._06_week_practices.jdbc_feedApp;
 
 import java.sql.Connection;
 

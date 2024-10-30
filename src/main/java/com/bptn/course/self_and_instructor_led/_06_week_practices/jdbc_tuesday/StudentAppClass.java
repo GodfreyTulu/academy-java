@@ -1,4 +1,4 @@
-package com.bptn.course.self_and_instructor_led._06_week_practices.tue;
+package com.bptn.course.self_and_instructor_led._06_week_practices.jdbc_tuesday;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
