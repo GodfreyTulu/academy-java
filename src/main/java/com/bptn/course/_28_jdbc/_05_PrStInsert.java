@@ -16,7 +16,7 @@ public static void main(String[] args) {
 		
 		String dbURL = "jdbc:postgresql://localhost:5432/bptn";
 		String dbUsername = "postgres";
-		String dbPassword = "postgres";
+		String dbPassword = "pg123";
 		
 		Student student = new Student();
 		
