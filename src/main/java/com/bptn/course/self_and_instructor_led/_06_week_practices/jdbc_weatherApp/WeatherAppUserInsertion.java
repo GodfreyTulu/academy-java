@@ -12,11 +12,11 @@ import java.sql.SQLException;
 public class WeatherAppUserInsertion {
 
 	//  define static variables for the database connection
-	private static final String userName = "doadmin";
-	private static final String password = "AVNS_K3z7waWSuYG4Dmk__h7";
-	private static final String dbName = "weatherDB";
-	private static final String port = "25060";
-	private static final String dbUrl = "jdbc:postgresql://academydb-c6-s1-t9-do-user-12484302-0.j.db.ondigitalocean.com:" + port + "/" + dbName;
+	private static final String userName = "";
+	private static final String password = "";
+	private static final String dbName = "";
+	private static final String port = "";
+	private static final String dbUrl = "" + port + "/" + dbName;
 
 
 	// Create a Connection method to establish a connection with the database using JDBC.
